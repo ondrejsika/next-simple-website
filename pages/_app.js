@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Head from "next/head";
 import App from "next/app";
 
 class MyApp extends App {
@@ -8,6 +9,9 @@ class MyApp extends App {
 
     return (
       <div className="container">
+        <Head>
+          <title>Ondrej Sika</title>
+        </Head>
         <p>
           <h3 className="site-header">Ondrej Sika</h3> ~{" "}
           <Link href="/">
