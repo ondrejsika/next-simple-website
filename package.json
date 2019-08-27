@@ -9,7 +9,17 @@
     "prettier": "^1.18.2"
   },
   "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build",
+    "export": "next export",
+    "static": "yarn run build && yarn run export",
     "prettier-check": "prettier -l '**/*.js'",
     "prettier-write": "prettier --write '**/*.js'"
+  },
+  "dependencies": {
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   }
 }
