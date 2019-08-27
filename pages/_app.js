@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import Head from "next/head";
 import App from "next/app";
-import { networkInterfaces } from "os";
 
 class MyApp extends App {
   render() {
