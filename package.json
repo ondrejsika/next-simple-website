@@ -9,6 +9,7 @@
     "prettier": "^1.18.2"
   },
   "scripts": {
+    "now-build": "yarn run static",
     "dev": "next",
     "start": "next start",
     "build": "next build",
